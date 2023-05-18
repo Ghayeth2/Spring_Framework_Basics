@@ -4,4 +4,8 @@
        xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd"
        bean-discovery-mode="all">
 
+
+    <interceptors>
+        <class>com.glassfish.spring_glassfish_test.interceptor.InterceptorBase</class>
+    </interceptors>
 </beans>
