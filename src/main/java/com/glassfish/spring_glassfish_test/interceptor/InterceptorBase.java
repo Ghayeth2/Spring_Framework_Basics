@@ -11,6 +11,9 @@ public class InterceptorBase {
         System.out.printf("The first state: "+context.getMethod().getName());
 
         // User: logged in or not
+        // when it was false, it didn't give me the message of AopBean (isLogin) method
+        // when put it as ture ( user is logged in ) that time the message was shown to me
+        // so I prevented user from unauthorized access into system
         boolean isLogin = true;
 
         Object isContinue = null; // if there's no intercepting then continue
