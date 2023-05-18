@@ -1,4 +1,4 @@
-package com.glassfish.spring_glassfish_test.interceptor;
+package com.glassfish.spring_glassfish_test.aop.interceptor;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;

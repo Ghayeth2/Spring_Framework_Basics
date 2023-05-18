@@ -1,4 +1,4 @@
-package com.glassfish.spring_glassfish_test.interceptor;
+package com.glassfish.spring_glassfish_test.aop.interceptor;
 
 import jakarta.interceptor.AroundInvoke;
 import jakarta.interceptor.Interceptor;

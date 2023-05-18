@@ -1,4 +1,4 @@
-package com.glassfish.spring_glassfish_test.stereotypes;
+package com.glassfish.spring_glassfish_test.aop.stereotypes;
 
 import lombok.Data;
 

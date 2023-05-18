@@ -6,6 +6,6 @@
 
 
     <interceptors>
-        <class>com.glassfish.spring_glassfish_test.interceptor.InterceptorBase</class>
+        <class>com.glassfish.spring_glassfish_test.aop.interceptor.InterceptorBase</class>
     </interceptors>
 </beans>
